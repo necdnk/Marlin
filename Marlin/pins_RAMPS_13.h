@@ -88,7 +88,7 @@
   #define FAN_PIN            4 // IO pin. Buffer needed
 #endif
 
-#define PS_ON_PIN          12
+#define PS_ON_PIN          8
 
 #if defined(REPRAP_DISCOUNT_SMART_CONTROLLER) || defined(G3D_PANEL)
   #define KILL_PIN           41
@@ -117,7 +117,7 @@
 #if MB(RAMPS_13_EFF) || MB(RAMPS_13_EEF) || MB(RAMPS_13_SF)
   #define HEATER_BED_PIN     -1    // NO BED
 #else
-  #define HEATER_BED_PIN     8    // BED
+  #define HEATER_BED_PIN     6    // BED
 #endif
 
 #define TEMP_BED_PIN       14   // ANALOG NUMBERING
