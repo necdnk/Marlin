@@ -548,7 +548,7 @@ const bool Z_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the logic
 #define ELECTRONIC_SCALE_PROBE
 #ifdef ELECTRONIC_SCALE_PROBE
   #define SCALE_GAIN 64 // 128 or 64 only for A channel 32 only for B channel
-  #define SCALE_SENSIVITY_HARD 40
+  #define SCALE_SENSIVITY_HARD 60
   #define SCALE_SENSIVITY_ACCURATE 5
   #define SCALE_DIVISOR 1000.f
 #endif
